@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px){
+    .info dt, .info dd{
+        text-align: center;
+    } 
+}

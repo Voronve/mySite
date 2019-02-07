@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main-cont{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto
+}
+
+.wordList{
+    margin-top: 10px;
+}
+
+footer{
+    color: #fff;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+
+footer p{
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+/*------About Me------*/
+.aboutMe{
+    margin-top: 20px;
+}
+
+.myPhoto img{
+    width: inherit;
+}
+
+/*------Dictionary------*/
+.newWord{
+    margin-top: 10px;
+}
+.singleWord{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.checkFieldWrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.fas{
+    display: none;
+}
